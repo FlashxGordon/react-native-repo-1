@@ -1,33 +1,93 @@
-# Gradle files
-.gradle/
-build/
+# Dependencies
+/node_modules
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
+# Miscellaneous
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Expo (uncomment if you are using Expo)
+# .expo/
+# .expo-shared/
 
-# Keystore files
-*.jks
+# iOS related
+ios/build/
+ios/Pods/ # If you're using Cocoapods
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Android related
+android/.gradle
+android/.idea
+android/*.iml
+android/.project
+android/.settings
+android/.cproject
+android/.classpath
+android/build/
+android/app/build/
+android/app/release/
 *.keystore
+*.jks
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# IDEs(Integrated Development Environments)
+/.idea
+/.vscode
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+*.old
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.pydevproject
+*.tmproj
+*.tmproject
+.tmtags
 
-# Android Profiling
-*.hprof
+# JetBrains template directories
+.idea/
+*.iml
+
+# Visual Studio Code template directories
+.vscode/
+
+# Xcode
+*.moved-aside
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Build output
+/build/
+
+# Local config files (if you have some local configs)
+# local.properties
